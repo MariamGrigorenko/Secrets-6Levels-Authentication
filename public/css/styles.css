@@ -1,15 +1,44 @@
-
 body {
-  background-color: #E8ECEF;
+  background-color: #e8ecef;
 }
 
 button {
   margin-top: 10px;
 }
 
+.secrets {
+  margin-top: 6rem;
+}
+
 .centered {
-    padding-top: 150px;
-    text-align: center;
+  padding-top: 150px;
+  text-align: center;
+}
+
+.btn-register {
+  margin-right: 1rem;
+}
+
+.btn-login {
+  margin-left: 1rem;
+}
+
+.btn-forms {
+  display: inline-block;
+}
+
+.logout-btn {
+  float: left;
+  margin-right: 1rem;
+}
+
+.submit-secret-btn {
+  float: right;
+  margin-left: 1rem;
+}
+
+.login-register-card {
+  margin-bottom: 1rem;
 }
 
 .secret-text {

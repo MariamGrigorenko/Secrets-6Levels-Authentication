@@ -4,7 +4,7 @@
 
   <div class="row">
     <div class="col-sm-8">
-      <div class="card">
+      <div class="card login-register-card">
         <div class="card-body">
           <!-- Makes POST request to /register route -->
           <form action="/register" method="POST">
@@ -22,16 +22,28 @@
       </div>
     </div>
 
-    <!-- <div class="col-sm-4">
+    <div class="col-sm-4">
       <div class="card social-block">
-        <div class="card-body">
-          <a class="btn btn-block" href="/auth/google" role="button">
+        <div class="card-body d-grid gap-2">
+          <a
+            class="btn btn-block btn-social btn-google btn-lg"
+            href="/auth/google"
+            role="button">
             <i class="fab fa-google"></i>
             Sign Up with Google
           </a>
         </div>
+        <div class="card-body d-grid gap-2">
+          <a
+            class="btn btn-block btn-social btn-facebook btn-lg"
+            href="/auth/facebook"
+            role="button">
+            <i class="fab fa-facebook"></i>
+            Sign Up with Facebook
+          </a>
+        </div>
       </div>
-    </div> -->
+    </div>
   </div>
 </div>
 <%- include('partials/header') %>
